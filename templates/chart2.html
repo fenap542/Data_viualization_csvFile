@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>CHARTS</title>
+    <link rel="stylesheet" href="/static/chart2.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;">CHARTS</h1>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/avg.jpg')}}">
+          <img src="{{ url_for('static', filename='images/avg.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">Above graph shows Average rotations for all devices. Here, we can conclude that Device 2 has the maximum Efficiency and Device 3 has the lowest</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/rotations1.jpg')}}">
+          <img src="{{ url_for('static', filename='images/rotations1.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graph shows maximum rotations are 15 per minute. Rotations Fluctuates when its turned OFF and when restarts. It remains stable at 15 rotations if not shut down.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/rotations2.jpg')}}">
+          <img src="{{ url_for('static', filename='images/rotations2.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graph shows maximum rotations are 20 per minute. Rotations Fluctuates when its turned OFF and when restarts. It remains stable at 20 rotations if not shut down.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/rotations3.jpg')}}">
+          <img src="{{ url_for('static', filename='images/rotations3.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graph shows maximum rotations are 15 per minute. Rotations Fluctuates when its turned OFF and when restarts. Rotations fluctuates more often.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/period1.jpg')}}">
+          <img src="{{ url_for('static', filename='images/period1.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graphs shows that this device has been ON nearly 95% of the time.Thus due to this it has been successfull to achieve more number of rotations.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/period2.jpg')}}">
+          <img src="{{ url_for('static', filename='images/period2.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graphs shows that this device has been ON nearly 82% of the time. It is slightly lower than Device 1.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="{{ url_for('static', filename='images/period3.jpg')}}">
+          <img src="{{ url_for('static', filename='images/period3.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        </a>
+        <div class="desc">This graphs shows that this device has been ON nearly 80% of the time. Due to this lower ON time it has lower rotations than other ddevices.</div>
+      </div>
+    </div>
+    
+    <div class="button">
+      <button><a href="/" type="submit">HOME</a></button>
+    </div>
+
+  </body>
+</html>

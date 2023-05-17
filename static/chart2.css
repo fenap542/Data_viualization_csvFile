@@ -1,0 +1,64 @@
+body{
+    background-image: url("/static/images/chart.png");
+    /* background-image: linear-gradient(to bottom right, black, pink); */
+}
+
+h1{
+    font-size: 75px;
+    color: rgb(0, 225, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px maroon, 0 0 25px white, 0 0 5px black;
+
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div.gallery {
+    border: 2px solid rgb(255, 187, 0);
+
+  }
+  
+  div.gallery:hover {
+    border: 5px solid  rgb(255, 187, 0);
+  }
+
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color:  rgb(255, 187, 0);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    /* float: auto; */
+    width: 50%;
+    height: 90%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

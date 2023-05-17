@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Upload</title>
+    <link rel="stylesheet" href="/static/index2.css">
+  </head>
+  <body>
+    <div style="text-align: center;">
+         <h1>DATA VISUALIZATION</h1>
+    </div>
+        <p>This is a web interface that displays the data visuals of the csv file uploaded.</p>
+    <div class="list">
+        Further it includes the following:
+        <ul>
+            <li><b>Line graph</b> for Number of Rotations for Each minute</li><br>
+            <li><b>Bar graph </b>for Efficiency of the device (Avg. Rpm)</li><br>
+            <li><b>Double Bar </b>graph for Device wise Total on-time and off-time.</li>
+        </ul>
+    </div>
+
+    <div>
+      <p>YOU CAN CLICK ON IMAGE TO OPEN IT.</p>
+    </div>
+  
+    <br>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <h2>FILE UPLOAD</h2>
+      <p class="button"><input type="file" name="file"></p>
+      <p class="button"><input type="submit" value="Submit"></p>
+    </form>
+    <div>
+      <img src="/static/images/ima2.jpg" width="600" height="400">
+      </div>
+  </body>
+</html>
